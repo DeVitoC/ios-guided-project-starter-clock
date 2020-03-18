@@ -37,6 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBE5433E24227E2900A83F8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE51156E22C139FE00EA4354 /* AppDelegate.swift */,
+				CE51157522C139FE00EA4354 /* Assets.xcassets */,
+				CE51157722C139FE00EA4354 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BBE5433F242280FD00A83F8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE51158022C13A8100EA4354 /* ClockView.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBE543402422812000A83F8E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE51157022C139FE00EA4354 /* ClockViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BBE543412422812F00A83F8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE51157222C139FE00EA4354 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CE51156222C139FE00EA4354 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +90,10 @@
 		CE51156D22C139FE00EA4354 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
-				CE51156E22C139FE00EA4354 /* AppDelegate.swift */,
-				CE51157022C139FE00EA4354 /* ClockViewController.swift */,
-				CE51158022C13A8100EA4354 /* ClockView.swift */,
-				CE51157222C139FE00EA4354 /* Main.storyboard */,
-				CE51157522C139FE00EA4354 /* Assets.xcassets */,
-				CE51157722C139FE00EA4354 /* LaunchScreen.storyboard */,
+				BBE543412422812F00A83F8E /* Views */,
+				BBE543402422812000A83F8E /* View Controllers */,
+				BBE5433F242280FD00A83F8E /* Controllers */,
+				BBE5433E24227E2900A83F8E /* Resources */,
 				CE51157A22C139FE00EA4354 /* Info.plist */,
 			);
 			path = Clock;
